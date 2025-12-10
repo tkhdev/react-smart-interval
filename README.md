@@ -2,7 +2,12 @@
 
 A lightweight React hook that intelligently manages intervals by automatically pausing them when the browser tab is inactive, component unmounts, or when the browser throttles background tabs.
 
-**[📖 View Live Demo & Documentation](https://react-smart-interval-demo.vercel.app)** | **[📦 npm](https://www.npmjs.com/package/react-smart-interval)**
+[![npm version](https://img.shields.io/npm/v/react-smart-interval.svg)](https://www.npmjs.com/package/react-smart-interval)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-smart-interval)](https://bundlephobia.com/package/react-smart-interval)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/)
+
+**[📖 View Live Demo & Documentation](https://react-smart-interval.vercel.app)** | **[📦 npm](https://www.npmjs.com/package/react-smart-interval)** | **[🐛 Report Bug](https://github.com/tkhdev/react-smart-interval/issues)** | **[💡 Request Feature](https://github.com/tkhdev/react-smart-interval/issues)**
 
 ## Features
 
@@ -300,9 +305,17 @@ If you encounter TypeScript errors:
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+Please make sure your code follows the existing code style and includes tests for new features.
+
 ## Live Demo
 
-Check out the **[live demo and interactive examples](https://react-smart-interval-demo.vercel.app)** to see `react-smart-interval` in action!
+Check out the **[live demo and interactive examples](https://react-smart-interval.vercel.app)** to see `react-smart-interval` in action!
 
 The demo includes:
 - ✨ All 5 example implementations
