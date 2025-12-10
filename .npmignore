@@ -1,0 +1,41 @@
+# Source files
+src/
+__tests__/
+*.test.ts
+*.test.tsx
+
+# Configuration files
+tsconfig.json
+jest.config.js
+.eslintrc.js
+.prettierrc
+.prettierignore
+
+# Development files
+.git/
+.gitignore
+.editorconfig
+
+# Documentation (keep README.md)
+implementation.md
+
+# Build tools
+node_modules/
+package-lock.json
+yarn.lock
+
+# Testing
+coverage/
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Only include dist/, README.md, LICENSE, and package.json
+
