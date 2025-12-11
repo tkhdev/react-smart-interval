@@ -1,6 +1,6 @@
 {
   "name": "react-smart-interval",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React hook that pauses intervals automatically when tab is inactive, component unmounts, or browser throttles",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
