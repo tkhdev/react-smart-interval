@@ -108,15 +108,7 @@ export function useSmartInterval(
 
     // Function to execute the callback
     const tick = () => {
-      try {
-        savedCallback.current();
-      } catch (error) {
-        // Silently handle errors to prevent breaking the interval
-        // In production, you might want to log this
-        if (process.env.NODE_ENV === 'development') {
-          console.error('Error in useSmartInterval callback:', error);
-        }
-      }
+      savedCallback.current();
     };
 
     // Function to start the interval
